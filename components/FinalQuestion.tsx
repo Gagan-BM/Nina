@@ -43,7 +43,7 @@ export function FinalQuestion({ show, onReset }: FinalQuestionProps) {
                 <p className="text-3xl font-black text-cocoa" id="final-title">
                   Okay, enough. 😌
                 </p>
-                <p className="mt-3 text-lg font-bold text-plum">You've received sufficient happiness for today.</p>
+                <p className="mt-3 text-lg font-bold text-plum">You&apos;ve received sufficient happiness for today.</p>
                 <p className="mt-7 text-sm font-black uppercase tracking-[0.18em] text-plum/75">But I have one final question...</p>
                 <h2 className="mt-3 text-3xl font-black text-cocoa sm:text-4xl">Did I make you smile? 🥺</h2>
                 <div className="mt-7 grid grid-cols-2 gap-3">
