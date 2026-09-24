@@ -4,11 +4,11 @@
 
 :root {
   color-scheme: light;
-  --nina-red: #b94a5a;
-  --deep-red: #8f263d;
-  --nina-green: #3f5a45;
-  --soft-green: #dce6d8;
-  --warm-white: #fff9f2;
+  --nina-red: #a52d58;
+  --deep-red: #4a1635;
+  --nina-green: #8e2457;
+  --soft-green: #e7b6c7;
+  --warm-white: #fff7f2;
 }
 
 * {
@@ -24,10 +24,10 @@ body {
   margin: 0;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   background:
-    radial-gradient(circle at 15% 12%, rgba(232, 216, 195, 0.82), transparent 28rem),
-    radial-gradient(circle at 82% 20%, rgba(220, 230, 216, 0.54), transparent 24rem),
-    linear-gradient(135deg, #fff9f2 0%, #fffdf9 52%, #f5ebdd 100%);
-  color: #352a27;
+    radial-gradient(circle at 15% 12%, rgba(231, 182, 199, 0.42), transparent 28rem),
+    radial-gradient(circle at 82% 20%, rgba(232, 210, 176, 0.35), transparent 24rem),
+    linear-gradient(135deg, #fff7f2 0%, #fffafb 52%, #f7e9ef 100%);
+  color: #301525;
 }
 
 button,
@@ -37,7 +37,7 @@ a {
 
 ::selection {
   background: #f9e1e7;
-  color: #352a27;
+  color: #301525;
 }
 
 @media (prefers-reduced-motion: reduce) {
