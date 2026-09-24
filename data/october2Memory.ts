@@ -14,7 +14,7 @@ export const october2Chapters: MemoryChapter[] = [
     lines: [
       "That afternoon, I was just painting. Nothing particularly special. I had absolutely no idea that the day was going to become one of the most important days in my story with you. ❤️",
       "When I later checked my photos from that day, I found the painting I had started. I had only just begun it on October 2nd; I finished it on October 3rd. 🎨🌙",
-      "It was an evening scene: a single stag, and a bright moon. At that point, I was still single, minding my own business. 😂",
+      "It was an evening scene: a single stag, and a bright moon. At that point, I was still single, minding my own business.",
       "And then... you appeared that very evening. Like that bright moon suddenly showing up in the picture. 🌙❤️",
       "Maybe coincidence. Maybe just one of those beautiful little things life does. Either way, I like the story.",
     ],
@@ -27,7 +27,7 @@ export const october2Chapters: MemoryChapter[] = [
     lines: [
       "Later that day, my cousin called and said they were going to Madikeri for Dasara. I had no idea what was actually going to happen.",
       "I knew there was a plan to visit, but I didn't know that your family would be hosting us and showing us around.",
-      "I had seen Dasara in Madikeri years before, so I was free. He asked. I simply said: Okay. 😂",
+      "I had seen Dasara in Madikeri years before, so I was free. He asked. I simply said: Okay.",
       "That very normal Okay somehow became the beginning of something very not-normal.",
     ],
     tone: "light",
@@ -61,9 +61,9 @@ export const october2Chapters: MemoryChapter[] = [
     eyebrow: "Chapter 05 · A completely innocent mistake ☕",
     title: "The Coffee Incident",
     lines: [
-      "Then came my first coffee from you. And somehow, I received sugarless black coffee. 😂",
+      "Then came my first coffee from you. And somehow, I received sugarless black coffee.",
       "For someone with a serious sweet tooth, this was a rather unexpected first impression. Internally: What exactly is happening here? Externally: maintained dignity.",
-      "I quietly drank it like it was the best coffee in the world. Meanwhile, everyone else had tasty coffee, and later the cousins were praising it. That made the situation even worse. 😂",
+      "I quietly drank it like it was the best coffee in the world. Meanwhile, everyone else had tasty coffee, and later the cousins were praising it. That made the situation even worse.",
       "The funniest part? It was meant for your friend. So technically, I didn't even get my coffee. I'm still waiting for the proper sweet coffee. 🥲☕",
     ],
     tone: "light",
@@ -96,10 +96,10 @@ export const october2Chapters: MemoryChapter[] = [
     eyebrow: "Chapter 08 · From that evening to now ✨",
     title: "And then... us. ❤️",
     lines: [
-      "A painting 🎨 A random call 📞 A simple Okay. A car ride 🚗 A first meeting ❤️ A slightly unfortunate coffee ☕😂 And a Dasara walk 🌙✨",
+      "A painting 🎨 A random call 📞 A simple Okay. A car ride 🚗 A first meeting ❤️ A slightly unfortunate coffee ☕ And a Dasara walk 🌙✨",
       "Eventually, it became us. ❤️",
       "From that first evening to today, we've come a long way. We've learned about each other: our quirks, our habits, our little memories.",
-      "The things that make us laugh. The things that sometimes annoy us. 😂 And somewhere along the way, I fell in love with you. ❤️",
+      "The things that make us laugh. The things that sometimes annoy us. And somewhere along the way, I fell in love with you. ❤️",
     ],
     tone: "light",
   },
