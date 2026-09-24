@@ -1,12 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Gift, HeartHandshake, Sparkles } from "lucide-react";
+import { Gift, HeartHandshake, Moon, Sparkles } from "lucide-react";
 import { useMemo, useState } from "react";
 import { FinalQuestion } from "@/components/FinalQuestion";
 import { FloatingHearts } from "@/components/FloatingHearts";
 import { MoodBoostCounter } from "@/components/MoodBoostCounter";
 import { MoodScanner } from "@/components/MoodScanner";
+import { MemoryExperience } from "@/components/MemoryExperience";
 import { PrescriptionCard } from "@/components/PrescriptionCard";
 import { SecretMessage } from "@/components/SecretMessage";
 import { prescriptions, type Prescription } from "@/data/prescriptions";
@@ -19,6 +20,7 @@ export default function Home() {
   const [selected, setSelected] = useState<Prescription | null>(null);
   const [lastId, setLastId] = useState<number | null>(null);
   const [showFinal, setShowFinal] = useState(false);
+  const [showMemory, setShowMemory] = useState(false);
 
   const secretUnlocked = secretClicks >= 7;
 
@@ -44,6 +46,10 @@ export default function Home() {
   };
 
   const decorativeStars = useMemo(() => Array.from({ length: 10 }), []);
+
+  if (showMemory) {
+    return <MemoryExperience onClose={() => setShowMemory(false)} />;
+  }
 
   return (
     <main className="relative min-h-screen overflow-hidden px-4 py-7 sm:px-6 sm:py-10">
@@ -92,6 +98,18 @@ export default function Home() {
         </header>
 
         <MoodScanner />
+
+        <motion.section className="w-full max-w-xl overflow-hidden rounded-2xl border border-nina-green/20 bg-white/75 p-5 shadow-soft backdrop-blur sm:p-6" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} aria-labelledby="memory-card-title">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-nina-green">02.10</p>
+              <h2 id="memory-card-title" className="mt-1 text-2xl font-black text-cocoa">The Evening It All Began</h2>
+              <p className="mt-2 text-sm font-bold text-plum">The day I first saw you.</p>
+            </div>
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-soft-green text-nina-green"><Moon className="h-6 w-6" fill="currentColor" aria-hidden="true" /></span>
+          </div>
+          <button type="button" onClick={() => setShowMemory(true)} className="mt-5 inline-flex min-h-11 items-center rounded-full bg-nina-red px-5 text-sm font-black text-white shadow-button outline-none transition hover:bg-deep-red focus-visible:ring-4 focus-visible:ring-nina-red/30">Enter the memory</button>
+        </motion.section>
 
         <div className="flex flex-col items-center gap-4">
           <motion.button

@@ -9,7 +9,7 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: "Dear Nina",
-  description: "A tiny interactive mood booster made with suspiciously high boyfriend effort.",
+  description: "A little world built for Nina.",
 };
 
 export default function RootLayout({
